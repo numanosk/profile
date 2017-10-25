@@ -1,0 +1,101 @@
+
+.container {
+  width: 770px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.section {
+  font-family: 'Cutive Mono', monospace;
+  border: 1px solid #ECEFD8;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#first-section{
+  font-family: 'Cutive Mono', monospace;
+  padding-top: 5px;
+  border: 1px solid #ECEFD8;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  background: url("./images/WuTang.jpg");
+  background-size: 400px 350px;
+  background-color: rgba(236,239,216,0.7);
+  background-blend-mode: lighten;
+}
+
+.img-circle {
+  border-radius: 10px;
+}
+
+#first-p {
+  font-size: 17px;
+  margin-bottom: 0;
+  background-color: rgba(236,239,216,0.9);
+}
+
+.chanteur-des {
+  background-color: rgb(240, 240, 240);
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  margin: 0 auto;
+  font-size: 45px;
+  position:relative;
+  bottom: 45px;
+  background-color: rgba(236,239,216,0.9);
+}
+
+h3, li {
+  color: #849561;
+  margin: 5px auto;
+}
+
+h3 {
+  border: 1px solid #ECEFD8;
+  width: 150px;
+  padding: 5px;
+  margin-top: 12px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+a {
+  color: #849561;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
+h3:hover {
+  background-color: rgba(236,239,216,0.7);
+  position: relative;
+}
+
+h3:hover:after {
+    content: url("./images/Trump_resize.png");
+    display: block;
+    position: absolute;
+    left: 15px; /* change this value to one that suits you */
+    top: 10px; /* change this value to one that suits you */
+}
+
+#Isha-a {
+  color: black;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
